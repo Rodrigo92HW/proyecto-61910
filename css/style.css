@@ -66,7 +66,7 @@ section.home {
 }
 
 .movie-trailer-iframe {
-    height: 40vh;
+    aspect-ratio: 16/9;
 }
 
 /* Footer */
