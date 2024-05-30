@@ -1,0 +1,92 @@
+/* General Code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-black:#141414;
+    --black:#333333;
+    --grey:#474747;
+    --grey-light:#525252;
+    --white:#D6D6D6;
+    --light-white:#F7F6F6;
+    --icons: #75A9F9;
+}
+
+/* Body */
+body {
+    background: #474747;
+}
+
+/* Text Format */
+p {
+    color: var(--light-white)
+}
+
+p.subtitle {
+    margin-top: -2%;
+    margin-bottom: -0.2rem;
+}
+
+a.footer {
+    all: unset;
+    cursor: pointer;
+    font-size: large;
+    margin-left: 5%;
+}
+
+a.header, a.footer {
+    color: var(--icons);
+}
+
+/* Header */
+header {
+    background-color: var(--dark-black);
+}
+
+/* Section Boxes */
+section {
+    background-color: #333333;
+    margin: 1%;
+    padding: 1%;
+    border: solid 2px black;
+    min-width: 576px;
+}
+
+section.home {
+    background-color: transparent;
+    border: none;
+}
+
+/* Carousel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.400);
+}
+
+.movie-trailer-iframe {
+    height: 40vh;
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-black);
+}
+
+.portrait {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* ----------------------- */
+/* Movie Section Specifics */
+/* ----------------------- */
+.movie-ranking-list {
+    height: 60%;
+}
+
+.stars {
+    height: 5%;
+}
