@@ -83,6 +83,10 @@ footer {
 /* ----------------------- */
 /* Movie Section Specifics */
 /* ----------------------- */
+.movies-rank .row:first-child, col {
+    height: fit-content;
+}
+
 .movie-ranking-list {
     height: 60%;
 }
