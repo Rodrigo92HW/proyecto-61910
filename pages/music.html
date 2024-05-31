@@ -15,42 +15,74 @@
         <nav class="navbar pt-2">
             <p class="title fs-1 fw-bold mb-0 ms-4">Home Theater</p>
             <ul class="nav nav-tabs position-absolute bottom-0 end-0 me-4">
-                <li class="nav-item"><a class="header nav-link active fs-5" aria-current="page"
-                        href="../index.html">Home</a>
+                <li class="nav-item"><a class="header nav-link fs-5" aria-current="page" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item"><a class="header nav-link fs-5" href="./movies.html">Peliculas</a></li>
                 <li class="nav-item"><a class="header nav-link fs-5" href="./series.html">Series</a></li>
-                <li class="nav-item"><a class="header nav-link fs-5" href="./music.html">Musica</a></li>
+                <li class="nav-item"><a class="header nav-link active fs-5" href="./music.html">Musica</a></li>
                 <li class="nav-item"><a class="header nav-link fs-5" href="./books.html">Libros</a></li>
             </ul>
         </nav>
     </header>
-    <p class="title fs-2 fw-bold">Musica</p>
     <main>
-        <section>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fJ9rUzIMcZQ?si=JFT8_tU6BmwcljDx"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="subtitle fs-3 fw-bold">Lyrics</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque velit rerum ut labore eius inventore modi
-                temporibus porro perspiciatis debitis, fugit neque provident illo maiores ad quae minima laboriosam
-                sapiente.</p>
-        </section>
-        <section>
-            <ul>
-                <li>Generos</li>
-                <li><a href="">Pop</a></li>
-                <li><a href="">Rock</a></li>
-                <li><a href="">Country</a></li>
-                <li><a href="">Metal</a></li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fuga officiis, nihil nesciunt
-                distinctio, sit tenetur eaque modi quis, nam voluptatibus ducimus tempora impedit eos expedita ipsa
-                odit! Vero, iusto.</p>
+        <p class="title fs-1 fw-bold text-center">Musica</p>
+        <section class="music-page container">
+            <div class="row">
+                <div class="music-iframe col-4">
+                    <iframe width="100%" height="100%"
+                        src="https://www.youtube.com/embed/fJ9rUzIMcZQ?si=JFT8_tU6BmwcljDx" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="false"></iframe>
+                </div>
+                <div class="col">
+                    <p class="subtitle fs-2 fw-bold">Lyrics</p>
+                    <div class="row overflow-auto" style="height: 260px">
+                        <div class="col">
+                            <p>Is this the real life? Is this just fantasy?</p>
+                            <p>Caught in a landslide, no escape from reality</p>
+                            <p>Open your eyes, look up to the skies and see</p>
+                            <p>I'm just a poor boy, I need no sympathy</p>
+                            <p>Because I'm easy come, easy go, little high, little low</p>
+                            <p>Any way the wind blows doesn't really matter to me, to me</p>
+                            <p>Mama, just killed a man</p>
+                        </div>
+                        <div class="col">
+                            <p>Put a gun against his head, pulled my trigger, now he's dead</p>
+                            <p>Mama, life had just begun</p>
+                            <p>But now I've gone and thrown it all away</p>
+                            <p>Mama, ooh, didn't mean to make you cry</p>
+                            <p>If I'm not back again this time tomorrow</p>
+                            <p>Carry on, carry on as if nothing really matters</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-2">
+                    <ul class="list-group">
+                        <li class="fw-bold list-group-item list-group-item-success">Generos</li>
+                        <li class="fw-semibold list-group-item active" aria-current="true">Pop</li>
+                        <li class="fw-semibold list-group-item">Rock</li>
+                        <li class="fw-semibold list-group-item">Country</li>
+                        <li class="fw-semibold list-group-item">Metal</li>
+                    </ul>
+                </div>
+                <div class="col overflow-auto">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, architecto? Ut, est incidunt quam
+                        accusamus labore, nulla repudiandae ipsa laboriosam aspernatur a exercitationem ipsam nihil
+                        optio. Recusandae nobis sapiente modi maiores? Impedit, doloremque officiis laborum aliquid
+                        veniam saepe inventore accusamus. Similique assumenda sint facere in ullam reiciendis quasi,
+                        soluta voluptatibus sapiente ut odit quo reprehenderit facilis, expedita a rem cupiditate earum
+                        placeat eaque atque repellat debitis unde. Eaque, aliquam nemo! Provident perferendis quod
+                        obcaecati quam libero odio voluptatem aspernatur odit illo inventore tempore beatae, deserunt
+                        ratione modi ex impedit excepturi, dicta rem repellat, ab nisi autem. Est sint explicabo
+                        doloremque.</p>
+                </div>
+            </div>
         </section>
     </main>
-    <footer class="text-center">
+    <footer class="text-center position-absolute bottom-0 vw-100">
         <div class="container p-2">
             <div class="row justify-content-center align-items-center">
                 <div class="col-2 mx-auto">

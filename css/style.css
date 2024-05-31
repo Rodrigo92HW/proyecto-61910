@@ -17,7 +17,7 @@
 
 /* Body */
 body {
-    background: #474747;
+    background: var(--grey);
 }
 
 /* Text Format */
@@ -48,7 +48,7 @@ header {
 
 /* Section Boxes */
 section {
-    background-color: #333333;
+    background-color: var(--black);
     margin: 1%;
     padding: 1%;
     border: solid 2px black;
@@ -65,7 +65,7 @@ section.home {
     background-color: rgba(0, 0, 0, 0.400);
 }
 
-.movie-trailer-iframe {
+.trailer-iframe, .music-iframe {
     aspect-ratio: 16/9;
 }
 
@@ -81,16 +81,22 @@ footer {
 }
 
 /* ----------------------- */
-/* Movie Section Specifics */
+/* Pages Section Specifics */
 /* ----------------------- */
-.movies-rank .row:first-child, col {
+/* Ranking */
+.rank .row:first-child, col {
     height: fit-content;
 }
 
-.movie-ranking-list {
+.ranking-list {
     height: 60%;
 }
 
-.stars {
-    height: 5%;
+/* Book resume */
+.book-resume {
+    background-color: rgb(214, 214, 214, 0.800);
+}
+
+.book-resume p {
+    color: var(--grey-light);
 }

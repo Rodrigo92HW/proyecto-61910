@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Musica</title>
+    <title>Libros</title>
 </head>
 
 <body>
@@ -15,39 +15,73 @@
         <nav class="navbar pt-2">
             <p class="title fs-1 fw-bold mb-0 ms-4">Home Theater</p>
             <ul class="nav nav-tabs position-absolute bottom-0 end-0 me-4">
-                <li class="nav-item"><a class="header nav-link active fs-5" aria-current="page"
-                        href="../index.html">Home</a>
+                <li class="nav-item"><a class="header nav-link fs-5" aria-current="page" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item"><a class="header nav-link fs-5" href="./movies.html">Peliculas</a></li>
                 <li class="nav-item"><a class="header nav-link fs-5" href="./series.html">Series</a></li>
                 <li class="nav-item"><a class="header nav-link fs-5" href="./music.html">Musica</a></li>
-                <li class="nav-item"><a class="header nav-link fs-5" href="./books.html">Libros</a></li>
+                <li class="nav-item"><a class="header nav-link active fs-5" href="./books.html">Libros</a></li>
             </ul>
         </nav>
     </header>
-    <p class="title fs-2 fw-bold">Libros</p>
+
     <main>
-        <section>
-            <img src="../img/books.jpg" alt="Libros" class="img-fluid">
-            <p class="subtitle fs-3 fw-bold">Resumen</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque velit rerum ut labore eius inventore modi
-                temporibus porro perspiciatis debitis, fugit neque provident illo maiores ad quae minima laboriosam
-                sapiente.</p>
-        </section>
-        <section>
-            <ul>
-                <li>Generos</li>
-                <li><a href="">Pop</a></li>
-                <li><a href="">Rock</a></li>
-                <li><a href="">Country</a></li>
-                <li><a href="">Metal</a></li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fuga officiis, nihil nesciunt
-                distinctio, sit tenetur eaque modi quis, nam voluptatibus ducimus tempora impedit eos expedita ipsa
-                odit! Vero, iusto.</p>
+        <p class="title fs-1 fw-bold text-center">Libros</p>
+        <section class="book-page container">
+            <div class="row">
+                <div class="book-iframe col-4">
+                    <img src="../img/books.jpg" alt="Imagen de Libros" class="img-fluid">
+                    <!-- <img src="../img/star-ranking.png" alt="Estrellas" class="stars img-fluid">  -->
+                    <!-- Hubo un error con las estrellas, no pude hacer que se vieran sin romper el resto de la seccion -->
+                </div>
+                <div class="col">
+                    <p class="subtitle fs-2 fw-bold">Resumen</p>
+                    <div class="book-resume row overflow-auto p-2 me-2 rounded" style="height: 248px;">
+                        <p class="fst-italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, odit odio? Qui labore
+                            nemo officia quod sit autem tempore obcaecati facere consectetur voluptatum velit nostrum,
+                            corporis aspernatur, quibusdam commodi, ex ipsam ad illum assumenda excepturi. Sequi
+                            voluptatum dolorum, ex, ad delectus omnis expedita ipsa, doloribus exercitationem officiis
+                            provident vel veritatis! Tenetur fugit quasi laboriosam nesciunt laudantium provident itaque
+                            repellat beatae corporis, fuga commodi molestiae perspiciatis ab, molestias facere? Minima
+                            molestias optio, sit debitis id quae temporibus ut! Consequatur eius vero suscipit voluptas
+                            doloremque perferendis. Sapiente, iste recusandae. Qui velit doloribus, nobis laborum
+                            aspernatur eveniet ipsam. Voluptate architecto, beatae error enim earum laudantium.
+                            Asperiores saepe iure possimus commodi provident iste officiis aliquid quas qui ex, odio
+                            eligendi est atque cupiditate maiores eos consectetur, soluta quasi, architecto mollitia
+                            eveniet tempore consequatur sit nihil? Amet molestias maxime exercitationem iste, minus
+                            placeat non consequuntur tenetur magnam cumque sapiente magni ut sint assumenda quis impedit
+                            incidunt. Fuga adipisci magnam tempore est, maiores natus vitae mollitia fugit ullam
+                            corporis unde laboriosam hic quo esse sapiente, nulla, sequi officiis repudiandae voluptas
+                            ea. Ad sequi molestiae ut modi, iure natus inventore, adipisci facilis, autem impedit cum
+                            placeat nihil architecto at. Aliquid quam consequatur totam illum corrupti illo eos!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-2">
+                    <ul class="list-group">
+                        <li class="fw-bold list-group-item list-group-item-danger">Generos</li>
+                        <li class="fw-semibold list-group-item active" aria-current="true">Misterio</li>
+                        <li class="fw-semibold list-group-item">Romance</li>
+                        <li class="fw-semibold list-group-item">Aventura</li>
+                        <li class="fw-semibold list-group-item">Terror</li>
+                    </ul>
+                </div>
+                <div class="col overflow-auto">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, architecto? Ut, est incidunt quam
+                        accusamus labore, nulla repudiandae ipsa laboriosam aspernatur a exercitationem ipsam nihil
+                        optio. Recusandae nobis sapiente modi maiores? Impedit, doloremque officiis laborum aliquid
+                        veniam saepe inventore accusamus. Similique assumenda sint facere in ullam reiciendis quasi,
+                        soluta voluptatibus sapiente ut odit quo reprehenderit facilis, expedita a rem cupiditate earum
+                        placeat eaque atque repellat debitis unde. Eaque, aliquam nemo! Provident perferendis quod
+                        obcaecati quam libero odio voluptatem aspernatur odit illo inventore tempore beatae, deserunt
+                        ratione modi ex impedit excepturi, dicta rem repellat, ab nisi autem. Est sint explicabo
+                        doloremque.</p>
+                </div>
+            </div>
         </section>
     </main>
-    <footer class="text-center">
+    <footer class="text-center position-absolute bottom-0 vw-100">
         <div class="container p-2">
             <div class="row justify-content-center align-items-center">
                 <div class="col-2 mx-auto">
