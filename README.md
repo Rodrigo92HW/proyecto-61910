@@ -2,9 +2,11 @@
 Esta pagina web esta destinada a la muestra de elementos de entretenimiento, desde peliculas y series, hasta diversos generos de musica y libros pueden encontrarse aqui.
 
 **Table of Contents**
-[TOCM]
-
-[TOC]
+- [Home Page](#home-page)
+  - [Peliculas](#peliculas)
+  - [Series](#series)
+  - [Musica](#musica)
+  - [Libros](#libros)
 
 # Home Page
 Esta es la pagina de ingreso del sitio web, aqui se encuentra una breve muestra del contenido que se puede encontrar en las diversas secciones, ademas de el entrenimiento del momento actualizado.
