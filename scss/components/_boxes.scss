@@ -1,0 +1,14 @@
+/* Section Boxes */
+section {
+    background-color: $black;
+    margin: 1%;
+    padding: 1%;
+    border: solid 2px black;
+}
+
+section.home {
+    @extend section;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+}

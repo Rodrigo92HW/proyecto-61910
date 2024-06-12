@@ -1,0 +1,20 @@
+/* Ranking for music and books */
+.rank {
+    .row:first-child,
+    col {
+        height: fit-content;
+    }
+}
+
+.ranking-list {
+    height: 60%;
+}
+
+/* Book */
+.book-resume {
+    background-color: rgb(214, 214, 214, 0.800);
+
+    p {
+        color: $grey-light;
+    }
+}

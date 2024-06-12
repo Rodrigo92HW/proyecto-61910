@@ -1,102 +1,136 @@
+/* Color Import */
+/* Colors */
+/* Base Import */
 /* General Code */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --dark-black:#141414;
-    --black:#333333;
-    --grey:#474747;
-    --grey-light:#525252;
-    --white:#D6D6D6;
-    --light-white:#F7F6F6;
-    --icons: #75A9F9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Body */
 body {
-    background: var(--grey);
+  background: #474747;
 }
 
-/* Text Format */
-p {
-    color: var(--light-white)
-}
-
-p.subtitle {
-    margin-top: -2%;
-    margin-bottom: -0.2rem;
-}
-
-a.footer {
-    all: unset;
-    cursor: pointer;
-    font-size: large;
-    margin-left: 5%;
-}
-
-a.header, a.footer {
-    color: var(--icons);
-}
-
-/* Header */
-header {
-    background-color: var(--dark-black);
-}
-
+/* Component Import */
 /* Section Boxes */
-section {
-    background-color: var(--black);
-    margin: 1%;
-    padding: 1%;
-    border: solid 2px black;
-    min-width: 576px;
+section, section.home {
+  background-color: #333333;
+  margin: 1%;
+  padding: 1%;
+  border: solid 2px black;
 }
 
 section.home {
-    background-color: transparent;
-    border: none;
+  margin: auto;
+  background-color: transparent;
+  border: none;
 }
 
 /* Carousel */
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.400);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-.trailer-iframe, .music-iframe {
-    aspect-ratio: 16/9;
+.trailer-iframe,
+.music-iframe {
+  aspect-ratio: 16/9;
 }
 
+/* Text Format */
+a.header {
+  color: #75A9F9;
+}
+
+p, p.subtitle {
+  color: #F7F6F6;
+}
+
+p.subtitle {
+  margin-top: -1%;
+  margin-bottom: -0.2rem;
+}
+
+a.footer {
+  all: unset;
+  cursor: pointer;
+  font-size: large;
+  margin-left: 5%;
+  color: #75A9F9;
+}
+
+/* Header */
+header {
+  background-color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 1.5rem;
+  }
+  .nav-dropdown {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav-dropdown {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+  }
+  .dropdown-button {
+    color: #75A9F9;
+  }
+  .dropdown-button:hover, .dropdown-button:focus {
+    color: #75A9F9;
+  }
+  .nav-links {
+    display: none;
+  }
+}
 /* Footer */
 footer {
-    background-color: var(--dark-black);
+  background-color: #141414;
 }
 
 .portrait {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
-/* ----------------------- */
-/* Pages Section Specifics */
-/* ----------------------- */
-/* Ranking */
-.rank .row:first-child, col {
-    height: fit-content;
+@media screen and (min-width: 992px) {
+  footer {
+    position: absolute;
+  }
+}
+@media screen and (max-width: 991px) {
+  footer {
+    position: static;
+  }
+}
+/* Pages Import */
+/* Ranking for music and books */
+.rank .row:first-child,
+.rank col {
+  height: fit-content;
 }
 
 .ranking-list {
-    height: 60%;
+  height: 60%;
 }
 
-/* Book resume */
+/* Book */
 .book-resume {
-    background-color: rgb(214, 214, 214, 0.800);
+  background-color: rgba(214, 214, 214, 0.8);
+}
+.book-resume p {
+  color: #525252;
 }
 
-.book-resume p {
-    color: var(--grey-light);
-}
+/*# sourceMappingURL=style.css.map */
