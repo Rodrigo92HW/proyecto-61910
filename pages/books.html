@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sumérgete en el apasionante mundo de la literatura con nuestra sección dedicada a libros en Home Theater. Explora reseñas detalladas que ofrecen una visión profunda de las últimas obras literarias y entrevistas exclusivas con los autores que las crean. Descubre listas de lectura recomendadas para todos los géneros y niveles de interés, desde clásicos de la literatura universal hasta obras contemporáneas que marcan tendencia. Mantente informado con noticias sobre los próximos lanzamientos literarios que no querrás perderte. Ya seas un ávido lector en busca de tu próxima aventura literaria o simplemente busques nuevas ideas, aquí encontrarás la inspiración y las recomendaciones necesarias para alimentar tu amor por la lectura.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Libros</title>
 </head>
 
-<body>
+<body class="book-Body">
     <header>
         <nav class="navbar pt-2">
-            <p class="fs-1 fw-bold mb-0 ms-4">Home Theater</p>
+            <h1 class="fs-1 fw-bold mb-0 ms-4">Home Theater</h1>
             <ul class="nav-links nav nav-tabs">
                 <li class="nav-item"><a class="header nav-link fs-5" aria-current="page" href="../index.html">Home</a>
                 </li>
@@ -40,34 +41,42 @@
     </header>
 
     <main>
-        <p class="title fs-1 fw-bold text-center">Libros</p>
+        <h1 class="title fs-1 fw-bold text-center">Libros</h1>
         <section class="book-page container">
             <div class="row">
-                <div class="book-iframe col-12 col-lg-6 col-xl-4">
+                <div class="book-iframe col-12 col-lg-6 col-xl-4  d-flex align-items-center">
+                    <!-- Optimizar las imagenes que uso -->
                     <img src="../img/books.jpg" alt="Imagen de Libros" class="img-fluid">
                     <!-- <img src="../img/star-ranking.png" alt="Estrellas" class="stars img-fluid">  -->
                     <!-- Hubo un error con las estrellas, no pude hacer que se vieran sin romper el resto de la seccion -->
                 </div>
                 <div class="col">
-                    <p class="subtitle fs-2 fw-bold">Resumen</p>
-                    <div class="book-resume row overflow-auto p-2 me-2 rounded" style="height: 248px;">
-                        <p class="fst-italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, odit odio? Qui labore
-                            nemo officia quod sit autem tempore obcaecati facere consectetur voluptatum velit nostrum,
-                            corporis aspernatur, quibusdam commodi, ex ipsam ad illum assumenda excepturi. Sequi
-                            voluptatum dolorum, ex, ad delectus omnis expedita ipsa, doloribus exercitationem officiis
-                            provident vel veritatis! Tenetur fugit quasi laboriosam nesciunt laudantium provident itaque
-                            repellat beatae corporis, fuga commodi molestiae perspiciatis ab, molestias facere? Minima
-                            molestias optio, sit debitis id quae temporibus ut! Consequatur eius vero suscipit voluptas
-                            doloremque perferendis. Sapiente, iste recusandae. Qui velit doloribus, nobis laborum
-                            aspernatur eveniet ipsam. Voluptate architecto, beatae error enim earum laudantium.
-                            Asperiores saepe iure possimus commodi provident iste officiis aliquid quas qui ex, odio
-                            eligendi est atque cupiditate maiores eos consectetur, soluta quasi, architecto mollitia
-                            eveniet tempore consequatur sit nihil? Amet molestias maxime exercitationem iste, minus
-                            placeat non consequuntur tenetur magnam cumque sapiente magni ut sint assumenda quis impedit
-                            incidunt. Fuga adipisci magnam tempore est, maiores natus vitae mollitia fugit ullam
-                            corporis unde laboriosam hic quo esse sapiente, nulla, sequi officiis repudiandae voluptas
-                            ea. Ad sequi molestiae ut modi, iure natus inventore, adipisci facilis, autem impedit cum
-                            placeat nihil architecto at. Aliquid quam consequatur totam illum corrupti illo eos!</p>
+                    <h2 class="subtitle fs-2 fw-bold">Resumen: 1984</h2>
+                    <div class="book-resume row overflow-auto p-2 me-2 rounded">
+                        <p>
+                            En el sombrío mundo de "1984", Oceanía es gobernada por un régimen totalitario liderado por
+                            el Partido y su enigmático líder, el Gran Hermano. Winston Smith, un funcionario del
+                            Ministerio de la Verdad, se siente cada vez más alienado por la manipulación constante de la
+                            historia y la vigilancia omnipresente del estado. A través de su trabajo, Winston conoce a
+                            Julia, una joven rebelde con quien inicia un ilícito romance en un mundo donde el amor y la
+                            individualidad son considerados peligrosos.
+                        </p>
+                        <p>
+                            En su búsqueda de libertad y verdad, Winston se une a la Hermandad, una organización
+                            clandestina que desafía al Partido. Sin embargo, su intento de resistencia es descubierto
+                            por la policía del pensamiento, y ambos son capturados y sometidos a torturas físicas y
+                            psicológicas en la siniestra Habitación 101.
+                        </p>
+                        <p>
+                            Finalmente, Winston sucumbe a la manipulación del Partido, traiciona a Julia y acepta la
+                            realidad alterada impuesta por el régimen. La novela culmina con Winston reflexionando sobre
+                            su amor por el Gran Hermano, evidenciando la pérdida total de su identidad y la victoria
+                            final del totalitarismo sobre la libertad individual.
+                        </p>
+                        <p>
+                            "1984" de George Orwell es una poderosa crítica a los regímenes autoritarios, la
+                            manipulación de la verdad y la pérdida de la privacidad en nombre del control estatal.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -81,16 +90,16 @@
                         <li class="fw-semibold list-group-item">Terror</li>
                     </ul>
                 </div>
-                <div class="col overflow-auto">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, architecto? Ut, est incidunt quam
-                        accusamus labore, nulla repudiandae ipsa laboriosam aspernatur a exercitationem ipsam nihil
-                        optio. Recusandae nobis sapiente modi maiores? Impedit, doloremque officiis laborum aliquid
-                        veniam saepe inventore accusamus. Similique assumenda sint facere in ullam reiciendis quasi,
-                        soluta voluptatibus sapiente ut odit quo reprehenderit facilis, expedita a rem cupiditate earum
-                        placeat eaque atque repellat debitis unde. Eaque, aliquam nemo! Provident perferendis quod
-                        obcaecati quam libero odio voluptatem aspernatur odit illo inventore tempore beatae, deserunt
-                        ratione modi ex impedit excepturi, dicta rem repellat, ab nisi autem. Est sint explicabo
-                        doloremque.</p>
+                <div class="col overflow-auto d-flex align-items-center">
+                    <p>El género del misterio en la literatura se sumerge en lo desconocido y lo inexplicable, tejiendo
+                        narrativas intrigantes que mantienen al lector en vilo. Desde detectives astutos hasta crímenes
+                        sin resolver, cada historia presenta enigmas que desafían la lógica y exploran lo más oscuro de
+                        la condición humana. Los personajes se ven envueltos en conspiraciones, traiciones y secretos
+                        enterrados que esperan ser descubiertos. A través de giros inesperados y revelaciones
+                        impactantes, el género del misterio promete suspenso constante y la satisfacción de resolver un
+                        puzzle complejo. Ya sea en escenarios contemporáneos o ambientaciones históricas, los libros de
+                        misterio invitan al lector a sumergirse en un viaje emocionante hacia lo desconocido, donde cada
+                        página es una pista y cada capítulo una revelación.</p>
                 </div>
             </div>
         </section>
@@ -102,10 +111,10 @@
                 <div class="col-2 mx-auto">
                     <img src="../img/portrait.jpg" alt="Retrato" class="portrait">
                 </div>
-                <div class="col-6 fst-italic text-center">
-                    <p>¿Tienes alguna pregunta o comentario? ¡Contáctanos!
-                        Teléfono: +1 (555) 123-4567
-                        Correo electrónico: info@hometheater.com</p>
+                <div class="p-footer col-6 fst-italic text-center">
+                    <p>¿Tienes alguna pregunta o comentario? ¡Contáctanos!</p>
+                    <p>Teléfono: +1 (555) 123-4567</p>
+                    <p>Correo electrónico: info@hometheater.com</p>
                 </div>
                 <div class="col mx-auto">
                     <a class="footer" href="https://www.facebook.com/" target="_blank">Facebook</a>

@@ -3,6 +3,8 @@ header {
     background-color: $dark-black;
 }
 
+/* Big Screen */
+
 @media screen and (min-width: 768px) {
     .nav-links {
         position: absolute;
@@ -16,6 +18,7 @@ header {
     }
 }
 
+/* Small Screen */
 @media screen and (max-width: 767px) {
     .nav-dropdown {
         position: absolute;

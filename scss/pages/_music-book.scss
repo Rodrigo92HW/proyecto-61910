@@ -1,4 +1,8 @@
 /* Ranking for music and books */
+.music-Body, .book-Body {
+    height: 100vh;
+}
+
 .rank {
     .row:first-child,
     col {
@@ -11,10 +15,12 @@
 }
 
 /* Book */
-.book-resume {
+.book-resume, .music-lyrics {
     background-color: rgb(214, 214, 214, 0.800);
 
     p {
         color: $grey-light;
+        font-weight: 600;
+        font-style: italic;
     }
 }

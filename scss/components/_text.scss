@@ -1,0 +1,52 @@
+/* Text Format */
+/* Paragraph Formatting */
+p {
+    color: $light-white;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.2rem;
+
+    &.under-Title {
+        padding-top: 1rem;
+    }
+}
+
+/* Title Formatting */
+h1 {
+    @extend p;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+    &.title {
+        margin-top: 1rem
+    }
+}
+
+h2 {
+    @extend p;
+    padding-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Link Formatting */
+a {
+    all: unset;
+    color: $icons;
+    font-weight: 700;
+
+    &.header {
+        color: $icons;
+    }
+
+    &.footer {
+        all: unset;
+        cursor: pointer;
+        font-size: large;
+        margin-left: 5%;
+        color: $icons;
+        font-weight: 0;
+    }
+}
+
+.p-footer p {
+    margin: 0.2rem;
+}

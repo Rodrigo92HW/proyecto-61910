@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Déjate llevar por el ritmo y la melodía con nuestra sección dedicada a la música en Home Theater. Sumérgete en reseñas detalladas de álbumes que te guiarán a través de los sonidos más vibrantes y emocionantes del momento. Disfruta de entrevistas exclusivas con artistas que revelan los secretos detrás de sus creaciones y te acercan a su mundo musical. Descubre listas de reproducción curadas para cada ocasión, desde energizantes playlists para entrenar hasta relajantes melodías para una noche tranquila. Mantente al día con las noticias más recientes sobre los últimos lanzamientos musicales que están marcando tendencia. En Home Theater, estamos aquí para enriquecer tu experiencia musical, explorando nuevos géneros, destacando artistas emergentes y celebrando clásicos atemporales que forman parte de la banda sonora de tu vida.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Musica</title>
 </head>
 
-<body>
+<body class="music-Body">
     <header>
         <nav class="navbar pt-2">
-            <p class="fs-1 fw-bold mb-0 ms-4">Home Theater</p>
+            <h1 class="fs-1 fw-bold mb-0 ms-4">Home Theater</h1>
             <ul class="nav-links nav nav-tabs">
                 <li class="nav-item"><a class="header nav-link fs-5" aria-current="page" href="../index.html">Home</a>
                 </li>
@@ -40,7 +41,7 @@
     </header>
 
     <main>
-        <p class="title fs-1 fw-bold text-center">Musica</p>
+        <h1 class="title fs-1 fw-bold text-center">Musica</h1>
         <section class="music-page container">
             <div class="row">
                 <div class="music-iframe col-12 col-lg-6 col-xl-4">
@@ -51,8 +52,8 @@
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="false"></iframe>
                 </div>
                 <div class="col">
-                    <p class="subtitle fs-2 fw-bold">Lyrics</p>
-                    <div class="row overflow-auto" style="height: 260px">
+                    <h2 class="subtitle fs-2 fw-bold">Lyrics</h2>
+                    <div class="music-lyrics row overflow-auto p-2 me-2 rounded">
                         <div class="col">
                             <p>Is this the real life? Is this just fantasy?</p>
                             <p>Caught in a landslide, no escape from reality</p>
@@ -61,15 +62,24 @@
                             <p>Because I'm easy come, easy go, little high, little low</p>
                             <p>Any way the wind blows doesn't really matter to me, to me</p>
                             <p>Mama, just killed a man</p>
-                        </div>
-                        <div class="col">
                             <p>Put a gun against his head, pulled my trigger, now he's dead</p>
                             <p>Mama, life had just begun</p>
                             <p>But now I've gone and thrown it all away</p>
                             <p>Mama, ooh, didn't mean to make you cry</p>
+                        </div>
+                        <div class="col">
                             <p>If I'm not back again this time tomorrow</p>
                             <p>Carry on, carry on as if nothing really matters</p>
+                            <p>Too late, my time has come</p>
+                            <p>Sends shivers down my spine, body's aching all the time</p>
+                            <p>Goodbye, everybody, I've got to go</p>
+                            <p>Gotta leave you all behind and face the truth</p>
+                            <p>Mama, ooh (any way the wind blows)</p>
+                            <p>I don't wanna die</p>
+                            <p>Sometimes wish I'd never been born at all</p>
+                            <p>I see a little silhouetto of a man</p>
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -83,16 +93,8 @@
                         <li class="fw-semibold list-group-item">Metal</li>
                     </ul>
                 </div>
-                <div class="col overflow-auto">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, architecto? Ut, est incidunt quam
-                        accusamus labore, nulla repudiandae ipsa laboriosam aspernatur a exercitationem ipsam nihil
-                        optio. Recusandae nobis sapiente modi maiores? Impedit, doloremque officiis laborum aliquid
-                        veniam saepe inventore accusamus. Similique assumenda sint facere in ullam reiciendis quasi,
-                        soluta voluptatibus sapiente ut odit quo reprehenderit facilis, expedita a rem cupiditate earum
-                        placeat eaque atque repellat debitis unde. Eaque, aliquam nemo! Provident perferendis quod
-                        obcaecati quam libero odio voluptatem aspernatur odit illo inventore tempore beatae, deserunt
-                        ratione modi ex impedit excepturi, dicta rem repellat, ab nisi autem. Est sint explicabo
-                        doloremque.</p>
+                <div class="col overflow-auto d-flex align-items-center">
+                    <p>El género de la música pop captura el espíritu y la emoción de la vida cotidiana a través de melodías pegajosas y letras que resuenan en el corazón. Desde canciones optimistas que celebran el amor y la felicidad hasta baladas emotivas que exploran el dolor y la pérdida, el pop abarca una amplia gama de temas universales. Con ritmos contagiosos y voces poderosas, los artistas pop conectan con audiencias de todo el mundo, ofreciendo momentos de escape y reflexión. La música pop no solo refleja la cultura contemporánea, sino que también redefine constantemente los estándares de la creatividad y la expresión artística. A través de sus melodías inolvidables y letras significativas, el pop sigue siendo un fenómeno global que une a personas de diferentes culturas y generaciones en una celebración de la vida y la música.</p>
                 </div>
             </div>
         </section>
@@ -104,10 +106,10 @@
                 <div class="col-2 mx-auto">
                     <img src="../img/portrait.jpg" alt="Retrato" class="portrait">
                 </div>
-                <div class="col-6 fst-italic text-center">
-                    <p>¿Tienes alguna pregunta o comentario? ¡Contáctanos!
-                        Teléfono: +1 (555) 123-4567
-                        Correo electrónico: info@hometheater.com</p>
+                <div class="p-footer col-6 fst-italic text-center">
+                    <p>¿Tienes alguna pregunta o comentario? ¡Contáctanos!</p>
+                    <p>Teléfono: +1 (555) 123-4567</p>
+                    <p>Correo electrónico: info@hometheater.com</p>
                 </div>
                 <div class="col mx-auto">
                     <a class="footer" href="https://www.facebook.com/" target="_blank">Facebook</a>

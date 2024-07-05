@@ -1,14 +1,30 @@
 /* Section Boxes */
 section {
     background-color: $black;
-    margin: 1%;
-    padding: 1%;
-    border: solid 2px black;
+    margin: 1rem;
+    padding: 1rem;
+    border: solid 2px $dark-black;
+    box-shadow: 8px 8px 2px 1px black;
+
+    img {
+        max-height: 350px;
+    }
 }
 
+/* Home */
 section.home {
     @extend section;
     margin: auto;
     background-color: transparent;
     border: none;
+    box-shadow: none;
+
+    img {
+        mask-image: linear-gradient(to right, transparent, black 25%, black 75%, transparent);
+    }
+}
+
+/* Rest of Sections */
+.serie-resume, .movie-resume, .music-lyrics, .book-resume {
+    height: 250px;
 }
